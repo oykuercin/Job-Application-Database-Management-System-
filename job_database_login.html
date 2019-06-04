@@ -1,0 +1,39 @@
+<html>
+<head> 
+<title> Job Database Login (ADMIN) </title>
+<link rel="stylesheet" type="text/css" href="job_database_login.css" />
+<div id="header">
+<h1 style="padding-left:80px"><b> Job Database Login (ADMIN) </b> </h1>
+ </div>
+</head>
+<body>
+<form action='job_database_login.php' method=POST>
+<hr/>
+<div id="useridpass">
+<b> UserId:</b>
+
+<input type='text' name='userid'> 
+<br>
+<br>
+<b>Password :</b>
+
+<input type='password' name='password'>
+
+ </div>
+ <div id="signin">
+<input type='submit' value="Sign In">
+<br>
+ </div>
+</form>
+ <div id="not_admin">
+<form action = 'user_panel.html' method=POST>
+    <b> Not Admin? </b>
+<input type = 'submit' value="Click Here" >
+</form>
+ </div>
+
+ </body>
+ 
+<div class="footer">&copy; Copyright 2018 Database Management Systems</div>
+ 
+</html>

@@ -1,0 +1,45 @@
+body{
+	width: 600px;
+	background-image: url("job.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#table{
+border-width: 5px;
+border-style: outset;
+border-color: blue;
+background-color: white;
+float: right;
+position: fixed;
+margin-left: 400px;
+margin-right: 400px;
+margin-top: 30px;
+}
+
+span {
+	color: black;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-style: outset;
+    padding: 3px;
+    border: 2px solid blue;
+	border-radius: 20px;
+    display: inline-block;
+}
+
+#form{
+	margin-top: 30px;
+	float: left;
+	border-width: 5px;
+	padding: 10px;
+	color: black;
+	border-style: outset;
+	border-color: blue;
+	margin-left: 7px;
+}
+

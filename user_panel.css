@@ -1,0 +1,26 @@
+#Admin_panel{
+background-color: black; 
+	color: white;
+	padding: 3px;
+}
+
+body{
+	background-image: url("job.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+span {
+	color: white;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-style: outset;
+    padding: 3px;
+    border: 2px black;
+	border-radius: 20px;
+    display: inline-block;
+}
